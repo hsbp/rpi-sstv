@@ -9,7 +9,6 @@ Usage example using unixsstv/gen_values:
 beacon.py | gen_values 44100 | play -r 44100 -t f32 -c 1 --norm -
 """
 
-from pysstv.sstv import SSTV
 from PIL import Image, ImageFont, ImageDraw
 from pysstv.color import MartinM2
 from subprocess import check_output
